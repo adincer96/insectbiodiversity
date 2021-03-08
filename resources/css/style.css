@@ -1,0 +1,846 @@
+/* Color = #575757; */
+
+
+/* ------------------------------ */
+/* -------GENERAL SETTINGS ------ */
+/* ------------------------------ */
+
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+  }
+
+
+
+
+
+html {
+
+    background-color: #fff;
+    font-weight: 300;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    color: #555;
+    text-rendering: optimizeLegibility;
+
+}
+
+
+
+
+.row {
+
+    max-width: 1140px;
+    margin: 0 auto;
+
+
+}
+
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+/* ----------HEADINGS ----------- */
+
+
+h1{
+
+    margin: 0;
+    margin-top: 40px;
+    color: #575757;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.index-header{
+
+
+    margin-top: 70px;
+    margin-left: 50px;
+    text-decoration: none;
+
+}
+
+
+.index-header a:link,
+.index-header a:visited
+{
+   padding: 8px 0;
+   color: #575757;
+   text-decoration: none;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+
+}
+
+.index-header a:hover,
+.index-header a:active {
+
+    border-bottom: 2px solid #575757;
+
+}
+
+
+.project-object{
+
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+
+.object-descript{
+
+    margin: 0;
+    margin-top: 20px;
+    color: #575757;
+    font-size: 100%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.first-link{
+  margin: 0;
+  margin-top: 20px;
+  color: #575757;
+  font-size: 100%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-decoration:none;
+}
+
+.first-link:hover{
+
+  margin: 0;
+  margin-top: 20px;
+  color: #575757;
+  font-size: 100%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.second-link{
+  color: #575757;
+  font-size: 100%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-decoration:none;
+}
+
+.second-link:hover{
+
+  color: #575757;
+  font-size: 100%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-decoration:underline;
+}
+
+.orders-title {
+
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 5px solid #555;
+    text-transform: uppercase;
+
+
+
+}
+
+.orders-title a {
+
+   text-decoration: none;
+
+
+
+
+}
+
+.features-title{
+
+
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100%;
+    border-style:solid;
+
+
+}
+
+.features-title2{
+
+
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100%;
+    border-style:ridge;
+
+
+}
+
+.features-title a{
+
+    text-decoration: none;
+}
+
+.features-title2 a{
+
+    text-decoration: none;
+}
+/* ----------ORDERS ----------- */
+
+
+#myInput {
+  background-image: url('img/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  background-position: left;
+  background-size: contain;
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+/*  margin-top: -1px; /* Prevent double borders */
+  /*background-color: #f6f6f6; /* Grey background color */
+  /*padding: 12px; /* Add some padding */
+  /*text-decoration: none; /* Remove default text underline */
+  /*font-size: 18px; /* Increase the font-size */
+  /*color: black; /* Add a black text color */
+  /*display: block; /* Make it into a block element to fill the whole list */
+/}*/
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+.orders-list{
+
+   float: left;
+   list-style: none;
+   margin-top: 55px;
+
+
+}
+
+.orders-list li{
+
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.orders-list li a:link,
+.orders-list li a:visited
+{
+   padding: 8px 0;
+   color: #575757;
+   text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+
+}
+
+.orders-list li a:hover,
+.orders-list li a:active {
+
+    border-bottom: 2px solid #575757;
+    text-decoration: none;
+
+}
+
+.hymenoptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.hymenoptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.coleoptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.coleoptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.diptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.diptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.lepidoptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.lepidoptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.neuroptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.neuroptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.orthoptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.orthoptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.protura p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.protura img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.collembola p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.collembola img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.diplura p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.diplura img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.microcoryphia p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.microcoryphia img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.thysanura p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.thysanura img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.ephemeroptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.ephemeroptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.odonata p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.odonata img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.phasmatodea p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.phasmatodea img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.grylloblattodea p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.grylloblattodea img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.mantophasmatodea p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.mantophasmatodea img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.dermaptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.dermaptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.plecoptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.plecoptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.embiidina p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.embiidina img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.zoraptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.zoraptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.isoptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.isoptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.mantodea p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.mantodea img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.blattodea p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.blattodea img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.hemiptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.hemiptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.thysanoptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.thysanoptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.psocoptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.psocoptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.phthiraptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.phthiraptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+.trichoptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.trichoptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.siphonaptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.siphonaptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+.mecoptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.mecoptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+
+.strepsiptera p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.strepsiptera img{
+  width: 200px;
+  height: 120px;
+  border: 5px solid #555;
+}
+/* ------------------------------ */
+/* ----------HEADER ------------- */
+/* ------------------------------ */
+
+
+header{
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/dnawallpaper2.png);
+    height: 19vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+
+.project-header{
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/dnawallpaper2.png);
+    height: 19vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    }
+.gallery-header{
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/dnawallpaper2.png);
+    height: 260vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+.categories-header{
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/dnawallpaper2.png);
+    height: 19vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+.about-us-header{
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/dnawallpaper2.png);
+    height: 19vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+
+}
+
+
+.index-section{
+
+
+    background-image: url(img/flowers2.png);
+    height: 81vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+
+
+.logo{
+
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+
+}
+
+
+
+.main-nav {
+
+   float: right;
+   list-style: none;
+   margin-top: 55px;
+
+}
+
+.main-nav li {
+
+    display: inline-block;
+    margin-left: 40px;
+
+}
+
+.main-nav li a:link,
+.main-nav li a:visited
+{
+   padding: 8px 0;
+   color: #fff;
+   text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+
+}
+
+.icon-header{
+
+    font-size: 120%;
+     display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+
+/* ------------------------------ */
+/* ----------GALLERY ------------ */
+/* ------------------------------ */
+
+
+.section-gallery{
+
+    padding-top: 30px;
+    margin-left: 30px;
+
+}
+
+.section-gallery h2{
+
+  margin-bottom: 10px;
+  color: white;
+}
+
+.first-title{
+  margin-top: 60px;
+}
+
+
+.gallery-showcase {     /* 9 pictures per line */
+
+    list-style:none;
+    width: 100%;
+    display:inline-block; /*bunu cikarirsan eskiye doner*/
+
+}
+
+.gallery-showcase li{
+
+    float: left;
+    width: 10%;
+    margin-right: 20px;
+}
+
+
+.insect-photo{
+
+    width: 100%;
+
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+}
+
+.insect-photo img {
+
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.06);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.insect-photo img:hover {
+    transform: scale(1.20);
+    opacity: 1;
+
+}
